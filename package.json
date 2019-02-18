@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/fvilers/disable-react-devtools/issues"
   },
-  "homepage": "https://github.com/fvilers/disable-react-devtools#readme"
+  "homepage": "https://github.com/fvilers/disable-react-devtools#readme",
+  "dependencies": {
+    "lodash": "4.17.11"
+  }
 }
