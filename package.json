@@ -7,7 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/fvilers/disable-react-devtools.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react"
+  ],
   "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
   "license": "MIT",
   "bugs": {
