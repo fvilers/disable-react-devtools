@@ -1,4 +1,4 @@
-import { isFunction, isObject } from 'lodash';
+import { isFunction, isObject } from './helpers';
 
 export function disableReactDevTools() {
   // Ensure the React Developer Tools global hook exists
