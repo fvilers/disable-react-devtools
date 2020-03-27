@@ -6,14 +6,12 @@ export function disableReactDevTools() {
     return;
   }
 
-  const NO_OP = () => {};
-
   // Replace all global hook properties with a no-op function or a null value
   for (const prop in window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
     window.__REACT_DEVTOOLS_GLOBAL_HOOK__[prop] = isFunction(
       window.__REACT_DEVTOOLS_GLOBAL_HOOK__[prop]
     )
-      ? NO_OP
+      ? Function.prototype
       : null;
   }
 }
