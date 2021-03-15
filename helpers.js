@@ -1,5 +1,5 @@
 export function isFunction(obj) {
-  return typeof obj == 'function' || false;
+  return typeof obj == 'function';
 }
 
 export function isObject(obj) {
